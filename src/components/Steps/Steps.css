@@ -1,0 +1,38 @@
+.steps {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.step {
+    display: flex;
+    font-size: 1rem;
+}
+
+.step svg {
+    font-size: 1.6rem;
+    margin-right: 0.5rem
+}
+
+.active {
+    font-weight: bold;
+    display: flex;
+    font-size: 1rem;
+}
+
+.active > svg {
+    fill: #5357B1;
+}
+
+.filled {
+    font-weight: bold;
+    display: flex;
+    font-size: 1rem;
+}
+
+.filled > svg {
+    fill: #00c200;
+
+}
